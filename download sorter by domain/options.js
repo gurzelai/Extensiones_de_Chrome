@@ -28,7 +28,8 @@ function loadChanges() {
     // return a default value of '' if there is no status value yet.
     
     if (Object.getOwnPropertyNames(items).length === 0) {
-      message('There is no data to load.');   
+      message('There is no data to load but I will do it for you.');  
+      textarea.checked = items.status; 
     }
     else{
       textarea.checked = items.status;
