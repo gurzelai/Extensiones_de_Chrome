@@ -3,7 +3,8 @@
     "name": "Downloads Organizer by Domain Name",
     "version": "1.0",
     "description": "Save files in a folder according to the domain name.",
-    "permissions": ["downloads"],
+    "permissions": ["activeTab", "downloads", "storage", "scripting"],
+    "options_page": "options.html",
     "background": {
         "service_worker": "background.js",
         "type": "module"
