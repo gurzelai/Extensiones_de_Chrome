@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Find Nearby McDonald's",
+    "version": "1.0",
+    "description": "Find the nearest McDonald's to your location.",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "geolocation"
+    ]
+}
